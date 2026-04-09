@@ -36,7 +36,7 @@ tinydir_close(&dir);
 
 ```C
 tinydir_dir dir;
-int i;
+size_t i;
 tinydir_open_sorted(&dir, "/path/to/dir");
 
 for (i = 0; i < dir.n_files; i++)
